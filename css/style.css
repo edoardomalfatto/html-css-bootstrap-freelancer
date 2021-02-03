@@ -99,3 +99,9 @@
 .int_little {
   height:10vh;
 }
+
+.fa-bars {
+  font-size: 5em;
+  float: right;
+  color:blue;
+}
