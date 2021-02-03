@@ -42,3 +42,60 @@
   height: 40vh;
   background-color: green;
 }
+
+.about {
+
+  background-color: red;
+}
+
+.intestazione {
+  height: 15vh;
+  background-color: blue;
+}
+
+.about .container-fluid .container .row .col-lg-6 {
+  height:20vh;
+  background-color: green;
+}
+
+.about .container-fluid .container .box {
+  background-color: rgb(99, 167, 97);
+  text-align: center;
+  height: 10vh;
+}
+
+.margin_col{
+  padding: 10px;
+}
+
+.nested_square {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  border-radius: 10px;
+
+}
+
+.contact {
+  background-color: yellow;
+}
+.contact .container .row .col-lg-12 {
+  height: 40vh;
+}
+
+.footer_top{
+  background-color: lightblue;
+}
+.footer_top .container-fluid .container .row .col-lg-4 {
+  height:20vh;
+  background-color: green;
+}
+
+.footer_bottom{
+  height:10vh;
+  background-color: red;
+}
+
+.int_little {
+  height:10vh;
+}
