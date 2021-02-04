@@ -1,3 +1,5 @@
+<!-- FONT AWESOME non collegato bene -->
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -31,14 +33,14 @@
          </div>
         </div>
 
-      <div class="ms_jumbotron">
+      <div class="ms_jumbotron pdg_top">
         <div class="wrapped">
           <div class="container-fluid">
             <div class="row">
               <div class="col-xs-12 text-center">
                 <img id="avatar" src="img/avataaars.svg" alt="">
                 <h1 class="prova" >Start Bootstrap</h1>
-                <div class="container-fluid">
+                <div class="container-fluid pdg_top">
                   <div class="row">
                     <div class="col-xs-5"> <hr> </div>
                     <div class="col-xs-2"> <i class="fas fa-star"></i> </div>
@@ -94,11 +96,18 @@
             <div class="wrapped">
               <div class="container-fluid">
                 <div class="row">
-                  <div class="intestazione col-md-offset-4 col-md-4"></div>
-                  <div class="col-md-6 col-sm-6"></div>
-                  <div class="col-md-6 col-sm-6"></div>
+                  <div class="intestazione col-md-offset-4 col-md-4 text-center"> <h1>about</h1> </div>
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-xs-5"> <hr id="hr_1"> </div>
+                        <div class="col-xs-2"> <i class="fas fa-star"></i> </div>
+                        <div class="col-xs-5"> <hr id="hr_2"> </div>
+                      </div>
+                    </div>
+                  <div class="col-md-6 col-sm-6"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in.</p> </div>
+                  <div class="col-md-6 col-sm-6"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in.</p> </div>
                 </div>
-                <div class="box"></div>
+                <div class="box"> <button type="button" id="about_btn" class="btn"> <i class="fa fa-download" aria-hidden="true"></i> Free Download!</button></div>
               </div>
             </div>
         </div>
@@ -107,8 +116,37 @@
           <div class="wrapped">
             <div class="container-fluid">
               <div class="row">
-              <div class="intestazione col-md-offset-4 col-md-4"></div>
-              <div class="col-md-12 col-sm-12"></div>
+                <div class="intestazione col-md-offset-4 col-md-4 text-center"> <h1>contact</h1> </div>
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-xs-5"> <hr id="hr_1"> </div>
+                      <div class="col-xs-2"> <i class="fas fa-star"></i> </div>
+                      <div class="col-xs-5"> <hr id="hr_2"> </div>
+                    </div>
+                  </div>
+                <div class="col-md-12 col-sm-12">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleInputName2">Name</label>
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputphone">Phone Number</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                      <textarea class="form-control text_area"  rows="5">Message</textarea>
+                      <div class="form-group">
+                        <div class="col-xs-12">
+                          <button type="submit" id="contact_btn" class="btn ">Sign in</button>
+                        </div>
+                      </div>
+                    </form>
+
+                </div>
               </div>
             </div>
           </div>
@@ -120,9 +158,28 @@
 
             <div class="container">
               <div class="row">
-                <div class="col-md-4 col-sm-4"></div>
-                <div class="col-md-4 col-sm-4"></div>
-                <div class="col-md-4 col-sm-4"></div>
+                <div class="col-md-4 col-sm-4">
+                  <h3>Location</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+                </div>
+                <div class="col-md-4 col-sm-4">
+
+                    <h3>Around the web</h3>
+                    <ul class="list-inline">
+                      <li><a href="#"></a><i class="fab fa-twitter"></i> </li>
+                      <li><a href="#"></a><i class="fab fa-facebook-f"></i></li>
+                      <li><a href="#"></a><i class="fab fa-linkedin-in"></i></li>
+                      <li><a href="#"></a><i class="fas fa-volleyball-ball"></i> </li>
+                    </ul>
+
+
+                </div>
+                <div class="col-md-4 col-sm-4">
+                  <h3>Location</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+                </div>
               </div>
 
             </div>
@@ -133,7 +190,7 @@
 
             <div class="container">
               <div class="row">
-                <div class="intestazione int_little col-md-offset-4 col-md-4"></div>
+                <div class="intestazione int_little col-md-offset-4 col-md-4"><p>Copyright © Your Website 2020</p></div>
               </div>
 
             </div>
