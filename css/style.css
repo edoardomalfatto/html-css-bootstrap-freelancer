@@ -1,10 +1,10 @@
 /* utility */
 .padding_top_standard {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .padding_bottom_standard {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .pdg_top {
@@ -212,4 +212,8 @@ header {
 }
 .footer_top .container .row .col-md-4 h3 {
   text-transform: uppercase;
+}
+
+.clr_greenblue {
+  color:rgb(16,188,156); 
 }
