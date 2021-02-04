@@ -2,6 +2,7 @@
   height: 10vh;
   background-color: darkblue;
   color: white;
+  width: 100%;
 }
 
 .row #htop_1 {
@@ -14,37 +15,46 @@
   background-color: yellow;
 }
 
-.jumbotron {
+.ms_jumbotron {
     background-color: blue;
 }
-.jumbotron .container-fluid{
-  height:50vh;
-  position:relative;
+
+.wrapped {
+  width: 50%;
+  margin: 0 auto;
 }
-.jumbotron .container-fluid .box {
+
+.ms_jumbotron .wrapped .container-fluid{
+  height:50vh;
+}
+
+/* CAMBIO IL BOX CON ABSOLUTE CENTRATO OCN UNA COL 12 con TEXT CENTRATO */
+/* .ms_jumbotron .container-fluid .ms_box {
   height: 100%;
   width: 50%;
   background-color: red;
-  position:absolute;
+  margin: 0 auto;
+  /* position:absolute;
   top:50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-}
+  transform: translate(-50%,-50%); */
+/* } */
+
 
 .portfolio .container .box {
   height: 10vh;
   /* margin:0 auto; */
-  text-align: center;
+
   background-color: grey;
 }
 
-.table .row .col-lg-4 {
+.table .row .col-md-4 {
   height: 40vh;
   background-color: green;
 }
 
 .about {
-
+  width: 100%;
   background-color: red;
 }
 
@@ -53,12 +63,12 @@
   background-color: blue;
 }
 
-.about .container-fluid .container .row .col-lg-6 {
+.about .wrapped .container-fluid .row .col-md-6 {
   height:20vh;
   background-color: green;
 }
 
-.about .container-fluid .container .box {
+.about .wrapped .container-fluid .box {
   background-color: rgb(99, 167, 97);
   text-align: center;
   height: 10vh;
@@ -79,19 +89,21 @@
 .contact {
   background-color: yellow;
 }
-.contact .container .row .col-lg-12 {
+.contact .wtrapped .container-fluid .row .col-md-12 {
   height: 40vh;
 }
 
 .footer_top{
   background-color: lightblue;
+  width: 100%;
 }
-.footer_top .container-fluid .container .row .col-lg-4 {
+.footer_top .container .row .col-md-4 {
   height:20vh;
   background-color: green;
 }
 
 .footer_bottom{
+  width: 100%;
   height:10vh;
   background-color: red;
 }
@@ -101,7 +113,8 @@
 }
 
 .fa-bars {
-  font-size: 5em;
+  font-size: 4em;
   float: right;
+  vertical-align: middle;
   color:blue;
 }
