@@ -1,22 +1,53 @@
+/* utility */
+.padding_top_standard {
+  padding-top: 30px;
+}
+
+.padding_bottom_standard {
+  padding-bottom: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+header {
+  color:white;
+}
+
 .header_top {
   height: 10vh;
-  background-color: darkblue;
-  color: white;
+  background-color:rgb(44,62,80);
   width: 100%;
 }
 
 .row #htop_1 {
   height: 10vh;
-  background-color: red;
+  line-height: 10vh;
+  /* background-color: red; */
+}
+.row #htop_1 h3 {
+  display: inline-block;
+  line-height: 6vh;
 }
 
 .row #htop_2 {
   height: 10vh;
-  background-color: yellow;
+  line-height: 10vh;
+  /* background-color: yellow; */
+  font-size: 1.3em;
+}
+
+.row #htop_2 ul li {
+  font-weight: bolder;
+  color: white;
+}
+.row #htop_2 ul li a {
+  color: white;
 }
 
 .ms_jumbotron {
-    background-color: blue;
+    background-color: rgb(16,188,156);
 }
 
 .wrapped {
@@ -24,8 +55,16 @@
   margin: 0 auto;
 }
 
-.ms_jumbotron .wrapped .container-fluid{
+/* .ms_jumbotron .wrapped .container-fluid{
   height:50vh;
+} */
+
+#avatar {
+  width: 50%;
+}
+
+.prova{
+  min-width: 100%;
 }
 
 /* CAMBIO IL BOX CON ABSOLUTE CENTRATO OCN UNA COL 12 con TEXT CENTRATO */
@@ -42,16 +81,21 @@
 
 
 .portfolio .container .box {
-  height: 10vh;
+  /* height: 20vh; */
   /* margin:0 auto; */
 
-  background-color: grey;
+  /* background-color: grey; */
+}
+#hr_1 ,
+#hr_2 {
+  color: black;
 }
 
-.table .row .col-md-4 {
+
+/* .table .row .col-md-4 {
   height: 40vh;
   background-color: green;
-}
+} */
 
 .about {
   width: 100%;
@@ -78,10 +122,17 @@
   padding: 10px;
 }
 
-.nested_square {
-  height: 100%;
+.table .row .col-md-4 .nested_square img {
   width: 100%;
-  background-color: red;
+  border-radius: 10px;
+}
+
+
+.nested_square {
+  /* height: 100%; */
+  width: 100%;
+  object-fit:cover;
+  /* background-color: red; */
   border-radius: 10px;
 
 }
@@ -116,5 +167,6 @@
   font-size: 4em;
   float: right;
   vertical-align: middle;
-  color:blue;
+  color:white;
+  line-height: 10vh;
 }
