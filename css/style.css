@@ -23,6 +23,8 @@ header {
 
 .header_top {
   position: fixed;
+  top:0;
+  left: 0;
   z-index: 100;
   height: 10vh;
   background-color:rgb(44,62,80);
@@ -96,7 +98,11 @@ header {
 }
 #hr_1 ,
 #hr_2 {
-  color: black;
+  background-color:rgb(44,62,80);
+}
+#hr_4 ,
+#hr_3 {
+  background-color: white;
 }
 
 
@@ -113,6 +119,10 @@ header {
 .intestazione {
   /* height: 15vh; */
   /* background-color: blue; */
+}
+
+.width_50 {
+  width: 50%;
 }
 
 .about .wrapped .container-fluid .row .col-md-6 {
@@ -186,6 +196,9 @@ header {
   color:white;
   line-height: 10vh;
 }
+.fa-bars2 {
+  font-size: 4em;
+}
 
 #about_btn {
   background-color: transparent;
@@ -215,5 +228,13 @@ header {
 }
 
 .clr_greenblue {
-  color:rgb(16,188,156); 
+  color:rgb(16,188,156);
+}
+
+.star_icon {
+ line-height: 40px;
+}
+
+.row .col-xs-2 {
+  text-align: center;
 }
