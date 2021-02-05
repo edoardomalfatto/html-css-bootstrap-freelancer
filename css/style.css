@@ -145,6 +145,16 @@ header {
   border-radius: 10px;
 }
 
+/* .layover_img {
+  position: absolute;
+  top: 0;
+  left:0;
+  height: calc(100% - 10px);
+  width: calc(100% - 10px);
+  background-color: black;
+  opacity: 0;
+} */
+
 
 .nested_square {
   /* height: 100%; */
@@ -197,7 +207,12 @@ header {
   line-height: 10vh;
 }
 .fa-bars2 {
-  font-size: 4em;
+  font-size: 2em;
+  border: 2px solid white;
+  border-radius:50px;
+  width: 50px;
+  height: 50px;
+  padding-top: 10px;
 }
 
 #about_btn {
@@ -226,6 +241,8 @@ header {
 .footer_top .container .row .col-md-4 h3 {
   text-transform: uppercase;
 }
+
+
 
 .clr_greenblue {
   color:rgb(16,188,156);
